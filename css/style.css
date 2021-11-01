@@ -284,6 +284,15 @@ section {
     font-weight: bold;
 }
 
+.btnCategory:hover{
+    box-shadow: 0px 0px 5px #BBB5B5;
+}
+
+.btnCategory:active{
+    height: 46px;
+    font-size: 16px;
+}
+
 .posts {
     flex-direction: column;
     align-items: center;
@@ -335,6 +344,17 @@ section {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: bold;
+}
+
+.btnCard:hover{
+    box-shadow: 0px 0px 5px #BBB5B5;
+}
+
+.btnCard:active{
+    height: 45px;
+    width: 320px;
+    margin-top: 28px;
+    font-size: 16px;
 }
 
 .partners1 {
@@ -505,4 +525,9 @@ footer{
 .footerMedia a{
     padding: 0px 8px;
     font-size: 20px;
+}
+
+
+.teste{
+    color: #969292;
 }
